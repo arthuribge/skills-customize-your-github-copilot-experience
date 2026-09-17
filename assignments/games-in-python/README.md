@@ -1,19 +1,36 @@
+# 📘 Atividade: Jogo da Forca
 
-# 🎮 Desafio: Jogo da Forca
+## 🎯 Objetivo
 
-Construa o clássico jogo de adivinhar palavras usando strings, loops e entrada de dados do usuário em Python.
+Neste projeto, você vai criar o clássico jogo da forca em Python usando strings, listas, condicionais e loops. O objetivo é praticar entrada de dados do usuário, controle do estado do jogo e lógica de decisão.
 
-## 🎯 O Que Você Vai Construir
+## 📝 Tarefas
 
-Crie um jogo da Forca onde os jogadores adivinham letras para revelar uma palavra oculta antes de esgotar as tentativas.
+### 🛠️ Criar a lógica principal do jogo
 
-**Habilidades praticadas:** Manipulação de strings, loops, condicionais, seleção aleatória
+#### Descrição
 
-## ✅ Requisitos Obrigatórios
+Implemente a estrutura básica do jogo da forca: selecione uma palavra aleatória, mostre o progresso da palavra oculta e permita que o jogador insira letras.
 
-Seu jogo deve:
-- Selecionar palavras aleatoriamente de uma lista predefinida
-- Aceitar palpites de letras e mostrar o progresso atual (formato _ _ _)
-- Rastrear tentativas incorretas restantes
-- Encerrar quando a palavra for adivinhada ou as tentativas esgotarem
-- Exibir mensagens de vitória/derrota
+#### Requisitos
+O programa concluído deve:
+
+- selecionar uma palavra aleatória de uma lista predefinida
+- mostrar a palavra como underscores e atualizar o progresso conforme letras corretas forem adivinhadas
+- aceitar entradas do usuário e verificar se a letra pertence à palavra
+- manter o controle das tentativas restantes
+- encerrar a partida quando a palavra for completa ou quando as tentativas acabarem
+
+### 🛠️ Exibir mensagens e finalização do jogo
+
+#### Descrição
+
+Adicione a experiência final do jogo com mensagens claras de vitória, derrota e feedback durante a partida.
+
+#### Requisitos
+O programa concluído deve:
+
+- exibir mensagens de vitória e derrota com texto claro para o usuário
+- informar quando a letra digitada já foi usada
+- mostrar o estado atual do jogo após cada tentativa
+- permitir uma nova partida de forma simples e intuitiva
